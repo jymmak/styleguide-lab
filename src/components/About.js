@@ -19,9 +19,12 @@ const About = () => (
       <div class="col offset-md-3">
         <CaRout />
       </div>
+
       <div class="col-md-10 offset-md-3">
         <h2 class="col-md-6">Principales componentes</h2>
+        <div>
         <MainCard />
+        </div>
       </div>
 
 

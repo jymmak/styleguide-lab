@@ -1,91 +1,52 @@
 import React from 'react';
 import fucsia from './assets/images/fucsia.png';
 import './css/fonts.css';
+import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import font1 from './assets/images/font1.png';
+import font2 from './assets/images/font2.png';
 
 const Fonts = () => (
   <div>
     <div className="container">
       <div class="row">
         <div class="col-md-10 offset-md-2">
-          <h1 class="col-md-4">Tipografías</h1>
-          <p class="col-md-8">Las tipografías son para dar tamaño al texto o párrafos.</p>
-        </div>
-        <div class="col-md-9 offset-md-3">
-          <h2 class="col-md-6">Title</h2>
-          <div class="col-md-8"><p>Proporcionamos un estilo básico en las etiquetas de encabezado. En el ejemplo,
-            puede  ver los diferentes tamaños  de  las 6 etiquetas de encabezado. La fuente  es <b>Bitter</b> Regular, que
-           se utilizará para títulos y otros mensajes que merecen  ser desctacados como pueden ser sumillas o testimoniales</p></div>
-        </div>
-        <div class="col-md-9 offset-md-3">
-          <h3>Opciones</h3>
-        </div>
-        <div class="col-md-6  offset-md-3 box">
-
-
+          <h1 class="col-md-4">Tipografía</h1>
+          <p class="col-md-8">Demasiados estilos/tamaños de letras pueden arruinar cualquier diseño. Stylelab cuenta con una
+          escala tipográfica, tiene un conjunto limitado de tamaños.</p>
         </div>
 
-      </div>
-    </div>
-    <div>
-      <img className='fucsia' src={fucsia} alt='fucsia'></img>
-    </div>
-    <div>
-      <div class="col-md-9 offset-md-3">
-        <h2 class="col-md-6">Paragraph</h2>
-        <div class="col-md-8"><p>La otra tipografía  de Laboratoria es la <b>Open Sans Regular</b>, que se utilizará para  números que sean titulares y cuerpos de texto .</p></div>
-      </div>
-      <div class="col-md-9 offset-md-3">
-        <h3>Opciones</h3>
-      </div>
-      <div class="col-md-6  offset-md-3 box">
+        <div class="row">
+          <div class="col-md-8 offset-md-3">
 
+            <div>
+              <CardTitle><b>Opciones: Se modifica el estilo agregando los siguientes atributos: Atributos de tamaño title1: Título principal.</b></CardTitle>
+              <CardText>title2: Título secundario.</CardText>
+              <CardText>title3: Título terciario.</CardText>
+              <CardText>phrase: Usado en frases. body body2</CardText>
+              <CardTitle><b>Atributo de colores</b></CardTitle>
+              <CardText>yellow, green o pink</CardText>
+              <CardTitle><b>Atributo  para subrayado</b></CardTitle>
+              <CardText>under</CardText>
+              <CardTitle><b>Atributo grosor de fuente</b></CardTitle>
+              <CardText>bold</CardText>
 
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-md-10 offset-md-2">
+          <div class="col-md-3 offset-md-1"><img className='font1' src={font1} alt='font1'></img></div>
 
-    </div>
-  
-    <div className="br">
-      <div class="col-md-9 offset-md-3">
-        <h2 class="col-md-6">Bold</h2>
-        <div class="col-md-8"><p>Para enfatizar un fragmento de texto con un peso de fuente más pesado.</p></div>
-      </div>
-      <div class="col-md-9 offset-md-3">
-        <h3>Ejemplo:</h3>
-      </div>
-      <div class="col-md-5  offset-md-4 box3">
+        </div>
+        <div class="col-md-10 offset-md-2">
+          <div class="col-md-3 offset-md-1"><img className='font2' src={font2} alt='font2'></img></div>
 
+        </div>
       </div>
-    </div>
- 
-    <div className="br">
-      <div class="col-md-9 offset-md-3">
-        <h2 class="col-md-6">Italic</h2>
-        <div class="col-md-8"><p>Para enfatizar un fragmento de texto con cursiva.</p></div>
-      </div>
-      <div class="col-md-9 offset-md-3">
-        <h3>Ejemplo:</h3>
-      </div>
-      <div class="col-md-5  offset-md-4 box3">
-
-      </div>
-     
-    </div>
-
     
-    <div className="br">
-      <div class="col-md-9 offset-md-3">
-        <h2 class="col-md-6">Subrayado</h2>
-        <div class="col-md-8"><p>Para enfatizar un  texto o fragmento de texto, con subrayado.</p></div>
-      </div>
-      <div class="col-md-9 offset-md-3">
-        <h3>Ejemplo:</h3>
-      </div>
-      <div class="col-md-5  offset-md-4 box3">
 
-      </div>
     </div>
-
-
 
 
   </div>
