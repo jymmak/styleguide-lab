@@ -43,15 +43,6 @@ function App() {
 render(<App />, document.querySelector('#app'));
 ```
 
-## Ejemplos de Uso
-
-¿Deseas ver un ejemplo de un producto desarrollado con éste material?
-[Aquí te mostramos](http://www.laboratoria.la/).
-
-![web-lab](https://user-images.githubusercontent.com/32303418/38009835-f0900380-321b-11e8-96e7-4ec5f4912b8c.png)
-
-![egresadas-lab](https://user-images.githubusercontent.com/32303418/38009906-405d8b8a-321c-11e8-9afb-ff732e2ca9b1.png)
-
 ## Documentación
 
 Revisa nuestra [documentación website](https://material-ui-next.com/).
@@ -61,11 +52,6 @@ Revisa nuestra [documentación website](https://material-ui-next.com/).
 #### Benchmarking
 
 Nos basamos en la estructura de flujo de los frameworks reconocidos(Bootstrap, Materialize, Foundation, Pure )
-
-![bootstrap](https://user-images.githubusercontent.com/32303418/38009070-df4e03dc-3217-11e8-826e-2b71e329d7f6.png)
-![materialize](https://user-images.githubusercontent.com/32303418/38009071-df8d0c94-3217-11e8-8f46-fb08ebdbc5c4.png)
-![foundation](https://user-images.githubusercontent.com/32303418/38009072-e052cccc-3217-11e8-970f-b9e8909a7114.png)
-![pure](https://user-images.githubusercontent.com/32303418/38009076-e133b926-3217-11e8-8439-eb870ec65fac.png)
 
 #### De la Definición
 
