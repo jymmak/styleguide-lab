@@ -200,6 +200,18 @@ render(<App />, document.querySelector("#app"));
 
 Revisa nuestra [documentación website]().
 
+## Uso Indebido de la marca
+
+![1](https://user-images.githubusercontent.com/32303418/38037140-d6dfda62-326d-11e8-84b7-474d22b7f145.png)
+![2](https://user-images.githubusercontent.com/32303418/38037141-d70312ac-326d-11e8-885a-3fd6dc740943.png)
+![3](https://user-images.githubusercontent.com/32303418/38037143-d73cd492-326d-11e8-8aec-5cad5c1fa833.png)
+![4](https://user-images.githubusercontent.com/32303418/38037146-d78026de-326d-11e8-8a29-1ba0e5947fff.png)
+![5](https://user-images.githubusercontent.com/32303418/38037147-d7b0af2a-326d-11e8-8642-62dbad847e9c.png)
+![6](https://user-images.githubusercontent.com/32303418/38037148-d7d0aae6-326d-11e8-8964-544d61b3fb52.png)
+![7](https://user-images.githubusercontent.com/32303418/38037149-d7fd602c-326d-11e8-88cd-8c05f14292d4.png)
+![8](https://user-images.githubusercontent.com/32303418/38037150-d8319054-326d-11e8-8162-65b4747c998e.png)
+![9](https://user-images.githubusercontent.com/32303418/38037151-d85ab43e-326d-11e8-9a4f-3b3349955a67.png)
+
 ## Del Desarrollo
 
 #### Research - Benchmarking
@@ -233,6 +245,7 @@ Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pd
 #### User Flow alta fidelidad - Mobile
 
 ![untitled 6](https://user-images.githubusercontent.com/32305619/38026352-72514516-3251-11e8-8421-ae7b70217794.jpg)
+
 
 ## Integrantes
 
