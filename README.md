@@ -202,11 +202,11 @@ Revisa nuestra [documentación website]().
 
 ## Del Desarrollo
 
-#### Benchmarking
+#### Research - Benchmarking
 
 Nos basamos en la estructura de flujo de los frameworks reconocidos(Bootstrap, Materialize, Foundation, Pure )
 
-#### De la Definición
+#### Ideación - De la Definición
 
 Se define los componentes principales para ésta primera versión de desarrollo:
 
@@ -215,7 +215,7 @@ Se define los componentes principales para ésta primera versión de desarrollo:
 * Tarjetas simples y con fotografías
 * Encabezados
 
-#### Del Flujo de Desarrollo
+#### Prototipado - Del Flujo de Desarrollo
 
 Se define de acuerdo al Benchmarking el flujo más óptimo para el desarrollo y visualización para el usuario.
 
@@ -228,6 +228,11 @@ Se define de acuerdo al Benchmarking el flujo más óptimo para el desarrollo y 
 Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pdf") para diseño, tipografía, logos, paleta de color y brackets.
 
 ![branding](https://user-images.githubusercontent.com/32303418/38009569-8431ea92-321a-11e8-9bd9-e5eb0234e202.png)
+
+
+#### User Flow alta fidelidad - Mobile
+
+![untitled 6](https://user-images.githubusercontent.com/32305619/38026352-72514516-3251-11e8-8421-ae7b70217794.jpg)
 
 ## Integrantes
 
