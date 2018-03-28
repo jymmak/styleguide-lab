@@ -10,6 +10,7 @@ import Botons from "./components/Botons";
 import Fonts from "./components/Fonts";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import Download from "./components/Download";
 
 
 const App = () => (
@@ -19,7 +20,10 @@ const App = () => (
     <div>
       <nav class="grupo menu lateral">
 
-        <ul class="menu grupo archivos publicos">
+        <ul class="menu grupo ">
+          <li class="item tarjetas">
+            <a class="enlace icon-fa focus" href="#"><Link to='/download'>Empecemos</Link></a>
+          </li>
           <li class="item acerca">
             <a class="enlace icon-fa" href="#"><Link to='/about'>Acerca de</Link></a>
           </li>
@@ -33,22 +37,23 @@ const App = () => (
           <li class="item tarjetas">
             <a class="enlace icon-fa focus" href="#"><Link to='/cards'>Tarjetas</Link></a>
           </li>
-
-
+         
         </ul>
 
       </nav>
 
       <Switch>
+        <Route path="/download" component={Download} />
         <Route path="/about" component={About} />
         <Route path="/botons" component={Botons} />
         <Route path="/fonts" component={Fonts} />
         <Route path="/cards" component={Cards} />
-     
       </Switch>
     </div>
-    <Footer />
 
+    <div className="foot">
+      <Footer />
+    </div>
   </div>
 
 );
