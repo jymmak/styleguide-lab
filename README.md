@@ -2,25 +2,100 @@
   <a href="https://www.laboratoria.la/" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="Laboratoria logo"></a></p>
 </p>
 
-<h1 align="center">Style Guide Laboratoria</h1>
+<h1 align="center">stylelab</h1>
 
 Presentamos la guía de estilos, la cual te ayudará con el desarrollo de los diferentes productos digitales propios de la marca Laboratoria, dónde podrás realizar piezas de manera rápida con todos los elementos del branding actual.
 
-![home](https://user-images.githubusercontent.com/32303418/38009774-a0fe1aa0-321b-11e8-8026-ae73ea0d4a5b.jpg)
-
-<div align="center">
-
-## Instalación
-
-Stylelab está disponible en un [npm package](https://www.npmjs.org/package/material-ui).
-
-```sh
-npm install Stylelab
-```
+<div align="">
 
 ## Soporte de Stylelab
 
-Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado como parte del Bootcamp 2017-II, un trabajo colaborativo entre desarrolladoras Front-End y UX Designers.
+Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado como parte del Bootcamp 2017-II, un trabajo colaborativo entre desarrolladoras Front-End y UX Designers.  
+
+## Tabla de contenido  
+
+- [Instalación](#instalación)
+
+### Documentación  
+
+- [Uso de componente](#uso-de-componente)
+- [Componente Button](#componente-button)
+- [Componente Typography](#componente-typography)
+- [Componente Card](#componente-card)
+
+## Instalación
+
+stylelab está disponible en [npm package](https://www.npmjs.com/package/stylelab).
+
+```sh
+npm install stylelab
+```
+
+## Uso de componente  
+
+```jsx
+import React from 'react';
+import { Button } from 'stylelab';
+
+function App() {
+  return (
+    <Button yellow bold>
+      Hello World
+    </Button>
+  );
+}
+
+render(<App />, document.querySelector('#app'));
+```  
+
+#### Importando varios componentes  
+
+```jsx
+import { Button, Typography, Card } from 'stylelab';
+
+}
+
+```
+## Componente Button  
+
+Opciones: Se modifica el estilo del botón agregando los siguientes atributos:  
+  `Colores de fondo:` yellow, green o pink.  
+  `Tamaño:` big, medium o small.  
+  `Color de Fuente:` white.  
+  *El color negro de la fuente ya esta predetermiando.  
+  `Grosor de fuente:` bold.  
+
+**Ejemplo**  
+
+<img width="150px" height='47px' src="assets/btn-small.png" alt="Laboratoria logo">
+
+```jsx
+import React from 'react';
+import { Button } from 'stylelab';
+
+function App() {
+  return (
+    <Button yellow small>
+      Laboratoria
+    </Button>
+    <Button pink medium bold>
+      Laboratoria
+    </Button>
+    <Button green big white>
+      Laboratoria
+    </Button>
+  );
+}
+
+render(<App />, document.querySelector('#app'));
+```   
+
+
+
+
+
+
+
 
 ## Sobre el Uso
 
