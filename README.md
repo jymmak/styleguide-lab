@@ -75,6 +75,13 @@ Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pd
 
 ![branding](https://user-images.githubusercontent.com/32303418/38009569-8431ea92-321a-11e8-9bd9-e5eb0234e202.png)
 
+## Integrantes
+
+* Alejandra Cabrera(Developer Front-End)
+* Jymma Mogollón(Developer Front-End)
+* Karina Buhezo(UX Designer)
+* Mariela Cerna(UX Designer)
+
 
 ## Agradecimientos
 
