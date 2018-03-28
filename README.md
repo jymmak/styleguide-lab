@@ -244,7 +244,7 @@ Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pd
 
 ### User Flow alta fidelidad
 
-![untitled 6](https://user-images.githubusercontent.com/32305619/38026352-72514516-3251-11e8-8421-ae7b70217794.jpg)
+![userflow](https://user-images.githubusercontent.com/32305619/38040580-6f4d2d20-3275-11e8-99ed-08a9b0656e50.jpg)
 
 ### Prototipo alta fidelidad - Desktop
 ![pantalladesktop](https://user-images.githubusercontent.com/32305619/38039198-5247e5d8-3272-11e8-8a8f-b7fd9633e52a.png)
