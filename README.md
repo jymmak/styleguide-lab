@@ -25,7 +25,8 @@ Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado 
 
 ## Instalación
 
-stylelab está disponible en [npm package](https://www.npmjs.com/package/stylelab).
+stylelab está disponible en [npm package](https://www.npmjs.com/package/stylelab) y en
+[Github](https://github.com/AlejandraCP/stylelab);
 
 ```sh
 npm install stylelab
