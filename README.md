@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="http://www.laboratoria.la/" rel="noopener" target="_blank"><img width="200" src="![l-amarilloblanco](https://user-images.githubusercontent.com/32303418/38007559-99d202ac-320f-11e8-9dd7-64d76c09cd35.png)
-" alt="Laboratoria logo"></a></p>
+  <a href="https://www.laboratoria.la/" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="Laboratoria logo"></a></p>
 </p>
 
 <h1 align="center">Style Guide Laboratoria</h1>
