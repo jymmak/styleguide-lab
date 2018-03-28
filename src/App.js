@@ -9,6 +9,7 @@ import About from "./components/About";
 import Botons from "./components/Botons";
 import Fonts from "./components/Fonts";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 
 const App = () => (
@@ -46,7 +47,7 @@ const App = () => (
      
       </Switch>
     </div>
-
+    <Footer />
 
   </div>
 
