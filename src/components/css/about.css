@@ -1,0 +1,14 @@
+h2{
+  margin-top: 3% !important;
+}
+.group{
+ width: 50vw;
+}
+.ale, .jymma, .kari, .mari{
+border-radius: 50%;
+height: 25vh !important;
+margin-top: 10%;
+}
+.text{
+  margin-left: 6%;
+}
