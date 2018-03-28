@@ -1,0 +1,19 @@
+header{
+  height: 13vh;
+  padding: 1%;
+}
+
+.download{
+  background-color: #FFFFFF !important;
+  color:#000000 !important;
+  font-size:18px;
+}
+.logol{
+  height: 30%;
+  float: left;
+}
+.green{
+  height: 30%;
+  float: right;
+}
+
