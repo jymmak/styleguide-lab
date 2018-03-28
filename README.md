@@ -216,10 +216,6 @@ Se define los componentes principales para ésta primera versión de desarrollo:
 
 #### Prototipado - Del Flujo de Desarrollo
 
-### User Flow
-
-![untitled 5](https://user-images.githubusercontent.com/32305619/38026143-96c9ce96-3250-11e8-9c3a-054311b7d06c.jpg)
-
 Se define de acuerdo al Benchmarking el flujo más óptimo para el desarrollo y visualización para el usuario.
 
 ![pizarra](https://user-images.githubusercontent.com/32303418/38009272-fc747602-3218-11e8-8f9c-f982fc522957.jpeg)
@@ -233,6 +229,9 @@ Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pd
 ![branding](https://user-images.githubusercontent.com/32303418/38009569-8431ea92-321a-11e8-9bd9-e5eb0234e202.png)
 
 
+#### User Flow alta fidelidad - Mobile
+
+![untitled 6](https://user-images.githubusercontent.com/32305619/38026352-72514516-3251-11e8-8421-ae7b70217794.jpg)
 
 ## Integrantes
 
