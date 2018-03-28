@@ -10,18 +10,18 @@ Presentamos la guía de estilos, la cual te ayudará con el desarrollo de los di
 
 ## Soporte de Stylelab
 
-Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado como parte del Bootcamp 2017-II, un trabajo colaborativo entre desarrolladoras Front-End y UX Designers.  
+Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado como parte del Bootcamp 2017-II, un trabajo colaborativo entre desarrolladoras Front-End y UX Designers.
 
-## Tabla de contenido  
+## Tabla de contenido
 
-- [Instalación](#instalación)
+* [Instalación](#instalación)
 
-### Documentación  
+### Documentación
 
-- [Uso de componente](#uso-de-componente)
-- [Componente Button](#componente-button)
-- [Componente Typography](#componente-typography)
-- [Componente Card](#componente-card)
+* [Uso de componente](#uso-de-componente)
+* [Componente Button](#componente-button)
+* [Componente Typography](#componente-typography)
+* [Componente Card](#componente-card)
 
 ## Instalación
 
@@ -31,11 +31,11 @@ stylelab está disponible en [npm package](https://www.npmjs.com/package/stylela
 npm install stylelab
 ```
 
-## Uso de componente  
+## Uso de componente
 
 ```jsx
-import React from 'react';
-import { Button } from 'stylelab';
+import React from "react";
+import { Button } from "stylelab";
 
 function App() {
   return (
@@ -45,81 +45,159 @@ function App() {
   );
 }
 
-render(<App />, document.querySelector('#app'));
-```  
+render(<App />, document.querySelector("#app"));
+```
 
-#### Importando varios componentes  
+#### Importando varios componentes
 
 ```jsx
 import { Button, Typography, Card } from 'stylelab';
 
 }
-
 ```
-## Componente Button  
+
+## Componente Button
 
 Opciones: Se modifica el estilo del botón agregando los siguientes atributos:  
-  `Colores de fondo:` yellow, green o pink.  
-  `Tamaño:` big, medium o small.  
-  `Color de Fuente:` white.  
-  *El color negro de la fuente ya esta predetermiando.  
-  `Grosor de fuente:` bold.  
+ `Colores de fondo:` yellow, green o pink.  
+ `Tamaño:` big, medium o small.  
+ `Color de Fuente:` white.  
+ \*El color negro de la fuente ya esta predetermiando.  
+ `Grosor de fuente:` bold.
 
-**Ejemplo**  
+**Ejemplo**
 
-<img width="150px" height='47px' src="assets/btn-small.png" alt="Laboratoria logo">
+<img width="150px" height='47px' src="assets/btn-small.png" alt="Boton pequeño">
+<img width="240px" height='47px' src="assets/btn-medium.png" alt="Boton mediano">
+<img width="280px" height='47px' src="assets/btn-large.png" alt="Boton large">
 
 ```jsx
-import React from 'react';
-import { Button } from 'stylelab';
+import React from "react";
+import { Button } from "stylelab";
 
 function App() {
   return (
-    <Button yellow small>
-      Laboratoria
-    </Button>
-    <Button pink medium bold>
-      Laboratoria
-    </Button>
-    <Button green big white>
-      Laboratoria
-    </Button>
+    <div>
+      <Button yellow small>
+        Laboratoria
+      </Button>
+      <Button pink medium bold>
+        Laboratoria
+      </Button>
+      <Button green big white>
+        Laboratoria
+      </Button>
+    </div>
   );
 }
 
-render(<App />, document.querySelector('#app'));
-```   
+render(<App />, document.querySelector("#app"));
+```
 
+## Componente Typography
 
+Demasiados estilos/tamaños de letras pueden arruinar cualquier diseño. Stylelab cuenta con una escala tipográfica, tiene un conjunto limitado de tamaños.
 
+Opciones: Se modifica el estilo agregando los siguientes atributos:
+**Atributos de tamaño**
+`title1:` Título principal.  
+ `title2:` Título secundario.  
+ `title3:` Título terciario.  
+ `phrase:` Usado en frases.
+`body`
+`body2`  
+ **Atributo de colores**  
+ `yellow, green o pink`  
+ **Atributo para subrayado**  
+ `under`  
+ **Atributo grosor de fuente**  
+ `bold`
 
+**Ejemplo**
 
-
-
-
-## Sobre el Uso
-
-Aquí hay un ejemplo rápido para que puedas empezar, **Esto es lo que necesitas**:
+<img src="assets/typography.png" alt="tipografia">
 
 ```jsx
-import React from 'react';
-import { render } from 'react-dom';
-import Button from 'material-ui/Button';
+import React from "react";
+import { Typography } from "stylelab";
 
 function App() {
   return (
-    <Button variant="raised" color="primary">
-      Hello World
-    </Button>
+    <div>
+      <Typography title1 bold>
+        Laboratoria LABORATORIA
+      </Typography>
+
+      <Typography title2 green>
+        Laboratoria LABORATORIA
+      </Typography>
+
+      <Typography title3 pink>
+        Laboratoria LABORATORIA
+      </Typography>
+
+      <Typography phrase yellow under>
+        Laboratoria LABORATORIA
+      </Typography>
+
+      <Typography body bold green>
+        Laboratoria LABORATORIA
+      </Typography>
+
+      <Typography body2 pink under>
+        Laboratoria LABORATORIA
+      </Typography>
+    </div>
   );
 }
 
-render(<App />, document.querySelector('#app'));
+render(<App />, document.querySelector("#app"));
+```
+
+## Componente Card
+
+Opciones: Se modifica el estilo agregando los siguientes atributos:
+**Atributos de tamaño**  
+ `big`
+`small`  
+ **Atributo de fondo de color**  
+ `yellow, green o pink`
+
+**Ejemplo**
+
+<img src="assets/card1.png" alt="Card">
+<img src="assets/card2.png" alt="Card">
+<img src="assets/card3.png" alt="Card">
+
+```jsx
+import React from "react";
+import { Card } from "stylelab";
+
+function App() {
+  return (
+    <div>
+      <Card pink big>
+        <span>720</span>
+        <p>HORAS DE RENDIMIENTO</p>
+      </Card>
+      <Card green small>
+        <span>720</span>
+        <p>HORAS DE RENDIMIENTO</p>
+      </Card>
+      <Card yellow big>
+        <span>720</span>
+        <p>HORAS DE RENDIMIENTO</p>
+      </Card>
+    </div>
+  );
+}
+
+render(<App />, document.querySelector("#app"));
 ```
 
 ## Documentación
 
-Revisa nuestra [documentación website](https://material-ui-next.com/).
+Revisa nuestra [documentación website]().
 
 ## Del Desarrollo
 
@@ -156,7 +234,6 @@ Como parte del reto se utiliza el manual del [branding actual]("assets/manual.pd
 * Jymma Mogollón(Developer Front-End)
 * Karina Buhezo(UX Designer)
 * Mariela Cerna(UX Designer)
-
 
 ## Agradecimientos
 
